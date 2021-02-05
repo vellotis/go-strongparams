@@ -1,6 +1,16 @@
 # go-strongparams
 RubyOnRails inspired Golang implementation of Strong Parameters
 
+#### Installation
+```bash
+go get github.com/vellotis/go-strongparams
+```
+   
+#### Usage
+```go
+import "github.com/vellotis/go-strongparams"
+```
+
 ## Strong Params
 Strong parameters is a really great approach of whitelisting model properties. [`github.com/gorilla/schema`](github.com/gorilla/schema) is a really
 great tool. But, it doesn't support dynamic whitelisting on the struct. Through struct tags it is only possible to
